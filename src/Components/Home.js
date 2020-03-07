@@ -14,7 +14,8 @@ class Home extends Component {
     state = {
 
         category : 9,
-        isStopped: false
+        isStopped: false,
+        difficulty: 'easy'
 
     }
 
@@ -69,7 +70,7 @@ class Home extends Component {
                         <option value="medium">Medium</option>
                         <option value="hard">Hard</option>
                     </select>
-                    <select name="category" id="" value={this.state.category} onChange={(e) => this.setState({category: e.target.value})}>
+                    <select name="category" id="" value={this.state.category} onChange={(e) => {this.setState({category: e.target.value}); this.props.getQuestions(this.state.difficulty,e.target.value) }}>
 
                         {
                             gotCategories.map(category=>(
