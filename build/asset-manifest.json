@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/atriviagame/static/css/main.a5d595ec.chunk.css",
+    "main.js": "/atriviagame/static/js/main.09d5e3fb.chunk.js",
+    "main.js.map": "/atriviagame/static/js/main.09d5e3fb.chunk.js.map",
+    "runtime-main.js": "/atriviagame/static/js/runtime-main.ad7e2c41.js",
+    "runtime-main.js.map": "/atriviagame/static/js/runtime-main.ad7e2c41.js.map",
+    "static/js/2.d5f72c49.chunk.js": "/atriviagame/static/js/2.d5f72c49.chunk.js",
+    "static/js/2.d5f72c49.chunk.js.map": "/atriviagame/static/js/2.d5f72c49.chunk.js.map",
+    "index.html": "/atriviagame/index.html",
+    "precache-manifest.efb4fe14477972d59748247a56ae41ee.js": "/atriviagame/precache-manifest.efb4fe14477972d59748247a56ae41ee.js",
+    "service-worker.js": "/atriviagame/service-worker.js",
+    "static/css/main.a5d595ec.chunk.css.map": "/atriviagame/static/css/main.a5d595ec.chunk.css.map",
+    "static/js/2.d5f72c49.chunk.js.LICENSE.txt": "/atriviagame/static/js/2.d5f72c49.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad7e2c41.js",
+    "static/js/2.d5f72c49.chunk.js",
+    "static/css/main.a5d595ec.chunk.css",
+    "static/js/main.09d5e3fb.chunk.js"
+  ]
+}
