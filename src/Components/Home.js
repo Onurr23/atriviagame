@@ -74,7 +74,7 @@ class Home extends Component {
 
                         {
                             gotCategories.map(category=>(
-                                <option key={category.id} value={category.id}>{category.name}</option>
+                                <option disabled={category.id === 13 || category.id === 19 || category.id === 24 || category.id === 25 || category.id === 29 || category.id === 30 ? true : false} key={category.id} value={category.id}>{category.name}</option>
                             ))
                         }
 
